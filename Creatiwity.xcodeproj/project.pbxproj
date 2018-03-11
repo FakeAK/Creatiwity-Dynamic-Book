@@ -15,6 +15,7 @@
 		412529112051F44A007BEDCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4125290F2051F44A007BEDCC /* LaunchScreen.storyboard */; };
 		4125291C2051F44A007BEDCC /* CreatiwityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4125291B2051F44A007BEDCC /* CreatiwityTests.swift */; };
 		412529272051F44B007BEDCC /* CreatiwityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412529262051F44B007BEDCC /* CreatiwityUITests.swift */; };
+		41252939205217B7007BEDCC /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41252938205217B7007BEDCC /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		412529222051F44B007BEDCC /* CreatiwityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreatiwityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		412529262051F44B007BEDCC /* CreatiwityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatiwityUITests.swift; sourceTree = "<group>"; };
 		412529282051F44B007BEDCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41252938205217B7007BEDCC /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				412529032051F44A007BEDCC /* AppDelegate.swift */,
+				41252938205217B7007BEDCC /* Page.swift */,
 				412529052051F44A007BEDCC /* ViewController.swift */,
 				412529072051F44A007BEDCC /* Main.storyboard */,
 				4125290D2051F44A007BEDCC /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				412529062051F44A007BEDCC /* ViewController.swift in Sources */,
 				412529042051F44A007BEDCC /* AppDelegate.swift in Sources */,
+				41252939205217B7007BEDCC /* Page.swift in Sources */,
 				4125290C2051F44A007BEDCC /* Creatiwity.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W35AB3VA5;
 				INFOPLIST_FILE = Creatiwity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AK.Creatiwity;
@@ -445,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8W35AB3VA5;
 				INFOPLIST_FILE = Creatiwity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = AK.Creatiwity;
